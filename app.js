@@ -154,6 +154,7 @@ var controller = {
 		view.$admin.on('reset', 'form', function(e) {
 			model.isAdmin = false;
 			view.hideAdmin();
+			view.$detail.find('button').show();
 		});
 
 	},
